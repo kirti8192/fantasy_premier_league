@@ -1,0 +1,1 @@
+url = https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/refs/heads/master/data/2023-24/gws/gw1.csv
