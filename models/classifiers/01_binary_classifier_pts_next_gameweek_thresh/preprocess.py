@@ -2,7 +2,13 @@ import pandas as pd
 import os
 import re
 
-# write a function that drops all data for gameweek that is targeted
+def get_target_column(df_this, gw):
+    """
+    Returns the boolean 
+    """
+    target_col = f'total_points_gw{gw}'
+    return df_this[target_col] > 4  # threshold for next gameweek points to be considered as a good performance
+
 def get_df_for_gw(df_this, gw):
     """
     Returns a DataFrame with all data for the gameweek just before the one that is targeted.
@@ -20,6 +26,13 @@ def get_df_for_gw(df_this, gw):
     # Filter the DataFrame to keep only the desired columns
     cols_to_keep = static_cols_to_keep + gw_cols_to_keep
     df_filtered = df_this[cols_to_keep]
+
+    # get target column
+    df_target_col = get_target_column(df_this, gw)
+
+    # merge df_filtered with the target column
+    df_filtered = df_filtered.merge(df_target_col.rename('target'), left_index=True, right_index=True)
+
     return df_filtered
 
 def get_df():
