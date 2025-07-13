@@ -1,36 +1,9 @@
 import pandas as pd
-import sys, os
-
-# read the data
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../data/raw'))
-csv_path = os.path.join(base_dir, 'vaastav_2022_23.csv')
-df = pd.read_csv(csv_path)
-
-# select features
-cols_to_keep = ['minutes',
-                'team',
-                'goals_scored', 
-                'assists', 
-                'expected_goals', 
-                'expected_assists', 
-                'clean_sheets',
-                'ict_index',
-                'bps', 
-                'bonus', 
-                'total_points',
-                ]
-
-# pivot table to get unified dataframe
-df_multigw = df.pivot_table(index='element', 
-                columns = 'GW', 
-                values = cols_to_keep, 
-                aggfunc='sum').reset_index()
-
-# rename columns to include gameweek number
-df_multigw.columns = [f"{col}_gw{int(gw)}" if isinstance(gw, (int,float)) else col for col,gw in df_multigw.columns]
+import os
+import re
 
 # write a function that drops all data for gameweek that is targeted
-def get_df_for_gw(gw):
+def get_df_for_gw(df_this, gw):
     """
     Returns a DataFrame with all data for the gameweek just before the one that is targeted.
     """
@@ -40,4 +13,67 @@ def get_df_for_gw(gw):
         raise ValueError("Gameweek must be between 1 and 38.")
     
     # get the columns for the gameweek just before the one that is targeted
-    pass
+    static_cols_to_keep = [col for col in df_this.columns if "_gw" not in col]
+    gw_suffixes = [f"_gw{idx}" for idx in range(1, gw)]
+    gw_cols_to_keep = [col for col in df_this.columns for suffix in gw_suffixes if col.endswith(suffix) ]
+
+    # Filter the DataFrame to keep only the desired columns
+    cols_to_keep = static_cols_to_keep + gw_cols_to_keep
+    df_filtered = df_this[cols_to_keep]
+    return df_filtered
+
+def get_df():
+    """
+    Returns a DataFrame with all data for the 2022–23 Fantasy Premier League season.
+    The DataFrame contains aggregated statistics for each player across all gameweeks.
+    """
+
+    # read the data
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../data/raw'))
+    csv_path = os.path.join(base_dir, 'vaastav_2022_23.csv')
+    df = pd.read_csv(csv_path)
+
+    # extract team and position information
+    df_common = df.groupby('element').agg({'team': 'first',
+                                             'position': 'first'
+                                             }).reset_index()
+
+    # select features
+    cols_to_keep = ['minutes',
+                    'goals_scored', 
+                    'assists', 
+                    'expected_goals', 
+                    'expected_assists', 
+                    'clean_sheets',
+                    'ict_index',
+                    'bps', 
+                    'bonus', 
+                    'total_points',
+                    ]
+
+    # pivot table to get unified dataframe
+    df_multigw = df.pivot_table(index='element', 
+                    columns = 'GW', 
+                    values = cols_to_keep, 
+                    aggfunc='sum').reset_index()
+
+    # flatten columns with gameweek suffix
+    df_multigw.columns = [f"{col}_gw{int(gw)}" if isinstance(gw, (int,float)) else col for col,gw in df_multigw.columns]
+
+    # merge common information with gamew data
+    df_multigw = df_common.merge(df_multigw, on='element', how='left')
+
+    # set element as the index
+    df_multigw.set_index('element', inplace=True)
+
+    return df_multigw
+
+if __name__ == '__main__':
+
+    df = get_df()
+    print(df.head())
+
+    # extract just data to predict gw X
+    gw = 10
+    df_gw = get_df_for_gw(df, gw)
+    print(df_gw.shape)
