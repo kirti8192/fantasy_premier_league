@@ -4,7 +4,7 @@ This project uses historical Fantasy Premier League (FPL) data to build predicti
 
 ## 🔍 Classification Problems to Explore
 
-### 1. Binary Classification: "Buy or Not"
+### 1. Binary Classification: "Buy or Not" ✅
 - **Goal:** Predict whether a player will score more than 4 points in the next gameweek
 - **Target:** `1` if `total_points_next_gw > 4`, else `0`
 - **Use for:** Early decision-making on player selection
