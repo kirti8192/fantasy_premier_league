@@ -1,0 +1,76 @@
+overall_pick,player,name,pos,team_name,total_points,points_per_game,minutes,goals_scored,assists,clean_sheets,saves,ict_index,now_cost,selected_by_percent,overall_score
+1,M.Salah,Mohamed Salah,MID,Liverpool,344,9.1,3374,29,18,15,0,476.0,145,58.0,16.021029374481028
+2,Mbeumo,Bryan Mbeumo,MID,Man Utd,236,6.2,3415,20,9,9,0,340.8,80,16.7,7.34764550332913
+3,Isak,Alexander Isak,FWD,Newcastle,211,6.2,2758,23,6,12,0,292.7,105,26.2,6.175198928580021
+4,Palmer,Cole Palmer,MID,Chelsea,214,5.8,3193,15,10,10,0,338.0,105,54.1,5.9898503953104525
+5,Wood,Chris Wood,FWD,Nott'm Forest,200,5.6,2958,20,3,15,0,205.6,75,16.4,4.652078181407321
+6,Bowen,Jarrod Bowen,FWD,West Ham,193,5.7,2974,13,11,8,0,271.9,80,20.3,4.438908165815016
+7,Haaland,Erling Haaland,FWD,Man City,181,5.8,2736,22,3,10,0,281.8,140,20.5,4.3137342382356705
+8,Wissa,Yoane Wissa,FWD,Brentford,185,5.3,2921,18,6,9,0,242.4,75,6.9,3.699642727030941
+9,B.Fernandes,Bruno Borges Fernandes,MID,Man Utd,174,4.8,3017,8,12,10,0,300.8,90,14.6,3.249461935044823
+10,Cunha,Matheus Santos Carneiro da Cunha,MID,Man Utd,178,5.4,2596,15,7,7,0,272.2,80,10.3,3.1826491605161764
+11,Watkins,Ollie Watkins,FWD,Aston Villa,186,4.9,2593,16,8,10,0,223.8,90,17.2,3.1714680190973588
+12,Semenyo,Antoine Semenyo,MID,Bournemouth,165,4.5,3202,11,7,11,0,267.8,70,5.1,2.521038560645689
+13,Rogers,Morgan Rogers,MID,Aston Villa,161,4.4,3115,8,11,10,0,214.3,70,23.2,1.9371588758820237
+14,Gibbs-White,Morgan Gibbs-White,MID,Nott'm Forest,154,4.5,2806,7,11,13,0,210.6,75,4.8,1.821526679052433
+15,Kluivert,Justin Kluivert,MID,Bournemouth,158,4.6,2339,12,6,13,0,212.0,70,4.8,1.6452973657011825
+16,J.Murphy,Jacob Murphy,MID,Newcastle,159,4.5,2356,8,13,11,0,185.6,65,2.9,1.5655551627594901
+17,Eze,Eberechi Eze,MID,Crystal Palace,148,4.4,2588,8,8,10,0,222.4,75,9.2,0.9628448977626709
+18,Elanga,Anthony Elanga,MID,Newcastle,153,4.0,2496,6,11,12,0,199.8,70,9.4,0.8902691106171283
+19,Iwobi,Alex Iwobi,MID,Fulham,156,4.1,2981,9,6,6,0,243.0,65,1.5,0.7954034124406875
+20,Trossard,Leandro Trossard,MID,Arsenal,152,4.0,2546,8,8,11,0,202.1,70,1.5,0.6785056700759334
+21,Sarr,Ismaïla Sarr,MID,Crystal Palace,149,3.9,2708,8,7,10,0,215.9,65,2.3,0.5065564308952376
+22,Szoboszlai,Dominik Szoboszlai,MID,Liverpool,143,4.0,2485,6,10,12,0,198.1,65,1.8,0.4941855275065774
+23,Mateta,Jean-Philippe Mateta,FWD,Crystal Palace,150,4.1,2642,14,2,9,0,187.3,75,6.3,0.3894941311094179
+24,Enzo,Enzo Fernández,MID,Chelsea,135,3.8,2943,6,8,10,0,241.3,65,4.0,0.2935663451408629
+25,Gvardiol,Joško Gvardiol,DEF,Man City,153,4.1,3278,5,0,13,0,185.0,60,17.4,0.2800509656084098
+26,Strand Larsen,Jørgen Strand Larsen,FWD,Wolves,145,4.1,2587,14,4,7,0,179.5,65,5.9,0.15607670452145386
+27,Muñoz,Daniel Muñoz Mejía,DEF,Crystal Palace,142,3.8,3229,4,6,11,0,197.6,55,8.4,0.09856135860550999
+28,Bruno G.,Bruno Guimarães Rodriguez Moura,MID,Newcastle,135,3.6,3273,5,6,13,0,197.5,65,1.5,0.07716131289676978
+29,Pickford,Jordan Pickford,GK,Everton,158,4.2,3420,0,1,12,122,107.0,55,12.1,-0.03345646086330367
+30,Schade,Kevin Schade,MID,Brentford,149,3.9,2281,11,4,10,0,183.3,70,1.9,-0.04242289170694415
+31,Amad,Amad Diallo,MID,Man Utd,129,5.0,1898,8,8,7,0,193.8,65,3.7,-0.044101032178315264
+32,Mitoma,Mitoma Kaoru,MID,Brighton,145,4.0,2597,10,5,6,0,210.7,65,6.1,-0.08269793831238062
+33,Raúl,Raúl Jiménez Rodríguez,FWD,Fulham,147,3.9,2486,12,3,7,0,199.7,65,2.4,-0.17828466972135404
+34,Milenković,Nikola Milenković,DEF,Nott'm Forest,145,3.9,3330,5,2,13,0,127.2,55,9.2,-0.2533025010421085
+35,Evanilson,Francisco Evanilson de Lima Barbosa,FWD,Bournemouth,128,4.1,2317,10,5,11,0,174.8,70,2.6,-0.3624237573227217
+36,Virgil,Virgil van Dijk,DEF,Liverpool,143,3.9,3330,3,1,14,0,143.7,60,24.4,-0.3780870741457645
+37,Damsgaard,Mikkel Damsgaard,MID,Brentford,131,3.4,2911,2,10,11,0,205.9,60,1.2,-0.4668073595756772
+38,Sels,Matz Sels,GK,Nott'm Forest,150,3.9,3420,0,1,13,120,96.7,50,17.9,-0.4709749075363968
+39,Son,Son Heung-min,MID,Spurs,129,4.3,2106,7,10,4,0,207.2,85,1.9,-0.6014803967081861
+40,João Pedro,João Pedro Junqueira de Jesus,FWD,Chelsea,126,4.7,1946,10,6,6,0,166.0,75,52.1,-0.6624749308471825
+41,Kerkez,Milos Kerkez,DEF,Liverpool,134,3.5,3336,2,6,9,0,157.3,60,10.2,-0.969968534106262
+42,Johnson,Brennan Johnson,MID,Spurs,137,4.2,2171,11,6,2,0,161.0,70,3.6,-0.9959486405417661
+43,Welbeck,Danny Welbeck,FWD,Brighton,125,4.2,2109,10,5,7,0,155.8,65,7.6,-1.061597566246427
+44,Aït-Nouri,Rayan Aït-Nouri,DEF,Man City,125,3.4,3112,4,7,7,0,191.0,60,23.1,-1.1497173014808966
+45,Raya,David Raya Martín,GK,Arsenal,142,3.7,3420,0,0,13,86,76.7,55,17.8,-1.1976022930426826
+46,Collins,Nathan Collins,DEF,Brentford,127,3.3,3420,2,7,8,0,149.6,50,1.7,-1.3257500043752282
+47,Cucurella,Marc Cucurella Saseta,DEF,Chelsea,133,3.7,2988,5,2,9,0,137.9,60,18.9,-1.3394462635294295
+48,Henderson,Dean Henderson,GK,Crystal Palace,135,3.6,3420,0,0,11,104,88.6,50,3.5,-1.5523343995798318
+49,Murillo,Murillo Costa dos Santos,DEF,Nott'm Forest,130,3.6,3188,2,0,12,0,134.0,55,4.9,-1.558169643036483
+50,Barnes,Harvey Barnes,MID,Newcastle,130,3.9,1746,9,5,6,0,163.1,65,0.6,-1.5756924126918221
+51,Delap,Liam Delap,FWD,Chelsea,132,3.6,2587,12,2,3,0,157.5,65,4.7,-1.5882782338810726
+52,Mitchell,Tyrick Mitchell,DEF,Crystal Palace,123,3.3,3090,0,6,12,0,136.2,50,1.0,-1.6127585040673096
+53,Aina,Ola Aina,DEF,Nott'm Forest,128,3.7,2996,2,1,12,0,94.1,50,17.4,-1.8275230445903543
+54,Saliba,William Saliba,DEF,Arsenal,130,3.7,3039,2,0,12,0,94.2,60,14.0,-1.846854477130674
+55,Schär,Fabian Schär,DEF,Newcastle,118,3.5,2935,4,2,11,0,119.6,55,2.4,-1.9544414811281978
+56,Mykolenko,Vitalii Mykolenko,DEF,Everton,121,3.5,3082,1,3,11,0,115.2,50,4.4,-1.9751402614068265
+57,Guéhi,Marc Guéhi,DEF,Crystal Palace,116,3.4,3059,3,2,11,0,131.0,45,13.2,-2.0226984476193266
+58,Wan-Bissaka,Aaron Wan-Bissaka,DEF,West Ham,118,3.3,3154,2,6,6,0,152.7,45,31.1,-2.0517805835724086
+59,Gabriel,Gabriel dos Santos Magalhães,DEF,Arsenal,117,4.2,2363,3,2,10,0,108.2,60,21.6,-2.0670101185082497
+60,Sánchez,Robert Lynch Sánchez,GK,Chelsea,126,3.9,2880,0,0,10,95,77.5,50,15.9,-2.1276733416629146
+61,Solanke,Dominic Solanke-Mitchell,FWD,Spurs,108,4.0,2199,9,5,4,0,142.1,75,11.2,-2.138120924824091
+62,Burn,Dan Burn,DEF,Newcastle,115,3.1,3330,1,1,13,0,115.8,50,3.2,-2.292343728506996
+63,Robinson,Antonee Robinson,DEF,Fulham,106,2.9,3166,0,10,5,0,185.5,50,6.3,-2.3588390406980686
+64,Havertz,Kai Havertz,FWD,Arsenal,97,4.2,1872,9,3,7,0,144.8,75,1.3,-2.3639462137229623
+65,Ederson M.,Ederson Santana de Moraes,GK,Man City,111,4.3,2320,0,4,10,54,60.9,55,3.7,-2.4058951842167398
+66,Lacroix,Maxence Lacroix,DEF,Crystal Palace,114,3.3,3116,1,2,11,0,111.4,50,1.1,-2.439812642888685
+67,J.Timber,Jurriën Timber,DEF,Arsenal,114,3.8,2415,1,3,11,0,94.2,55,2.2,-2.516161096242523
+68,A.Becker,Alisson Becker,GK,Liverpool,112,4.0,2508,0,0,10,78,64.0,55,11.0,-2.824004605990945
+69,Leno,Bernd Leno,GK,Fulham,115,3.0,3420,0,2,5,110,98.6,50,1.7,-2.949179711071635
+70,Tarkowski,James Tarkowski,DEF,Everton,105,3.2,2922,1,1,10,0,126.9,55,5.1,-3.0085748210540664
+71,N.Williams,Neco Williams,DEF,Nott'm Forest,109,3.1,2588,1,3,10,0,118.0,50,4.9,-3.0645827016196914
+72,Konaté,Ibrahima Konaté,DEF,Liverpool,106,3.4,2561,1,2,11,0,87.6,55,2.9,-3.1172781705203523
+73,Arrizabalaga,Kepa Arrizabalaga Revuelta,GK,Arsenal,106,3.4,2790,0,0,8,97,75.8,45,1.0,-3.3732000553384234
+74,Verbruggen,Bart Verbruggen,GK,Brighton,103,2.9,3240,0,1,7,91,85.8,45,6.7,-3.516928572582895
+75,Livramento,Tino Livramento,DEF,Newcastle,105,2.8,2835,0,1,10,0,110.1,50,4.1,-3.609152198632846

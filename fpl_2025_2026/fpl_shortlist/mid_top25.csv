@@ -1,0 +1,26 @@
+rank,pos,player,name,team_name,total_points,points_per_game,minutes,goals_scored,assists,clean_sheets,saves,ict_index,now_cost,status,selected_by_percent
+1,MID,M.Salah,Mohamed Salah,Liverpool,344,9.1,3374,29,18,15,0,476.0,145,a,58.0
+2,MID,Mbeumo,Bryan Mbeumo,Man Utd,236,6.2,3415,20,9,9,0,340.8,80,a,16.7
+3,MID,Palmer,Cole Palmer,Chelsea,214,5.8,3193,15,10,10,0,338.0,105,a,54.1
+4,MID,Cunha,Matheus Santos Carneiro da Cunha,Man Utd,178,5.4,2596,15,7,7,0,272.2,80,a,10.3
+5,MID,B.Fernandes,Bruno Borges Fernandes,Man Utd,174,4.8,3017,8,12,10,0,300.8,90,a,14.6
+6,MID,Semenyo,Antoine Semenyo,Bournemouth,165,4.5,3202,11,7,11,0,267.8,70,a,5.1
+7,MID,Rogers,Morgan Rogers,Aston Villa,161,4.4,3115,8,11,10,0,214.3,70,a,23.2
+8,MID,J.Murphy,Jacob Murphy,Newcastle,159,4.5,2356,8,13,11,0,185.6,65,a,2.9
+9,MID,Kluivert,Justin Kluivert,Bournemouth,158,4.6,2339,12,6,13,0,212.0,70,a,4.8
+10,MID,Iwobi,Alex Iwobi,Fulham,156,4.1,2981,9,6,6,0,243.0,65,a,1.5
+11,MID,Gibbs-White,Morgan Gibbs-White,Nott'm Forest,154,4.5,2806,7,11,13,0,210.6,75,a,4.8
+12,MID,Elanga,Anthony Elanga,Newcastle,153,4.0,2496,6,11,12,0,199.8,70,a,9.4
+13,MID,Trossard,Leandro Trossard,Arsenal,152,4.0,2546,8,8,11,0,202.1,70,a,1.5
+14,MID,Sarr,Ismaïla Sarr,Crystal Palace,149,3.9,2708,8,7,10,0,215.9,65,a,2.3
+15,MID,Schade,Kevin Schade,Brentford,149,3.9,2281,11,4,10,0,183.3,70,a,1.9
+16,MID,Eze,Eberechi Eze,Crystal Palace,148,4.4,2588,8,8,10,0,222.4,75,a,9.2
+17,MID,Mitoma,Mitoma Kaoru,Brighton,145,4.0,2597,10,5,6,0,210.7,65,a,6.1
+18,MID,Szoboszlai,Dominik Szoboszlai,Liverpool,143,4.0,2485,6,10,12,0,198.1,65,a,1.8
+19,MID,Johnson,Brennan Johnson,Spurs,137,4.2,2171,11,6,2,0,161.0,70,a,3.6
+20,MID,Enzo,Enzo Fernández,Chelsea,135,3.8,2943,6,8,10,0,241.3,65,a,4.0
+21,MID,Bruno G.,Bruno Guimarães Rodriguez Moura,Newcastle,135,3.6,3273,5,6,13,0,197.5,65,a,1.5
+22,MID,Damsgaard,Mikkel Damsgaard,Brentford,131,3.4,2911,2,10,11,0,205.9,60,a,1.2
+23,MID,Barnes,Harvey Barnes,Newcastle,130,3.9,1746,9,5,6,0,163.1,65,a,0.6
+24,MID,Amad,Amad Diallo,Man Utd,129,5.0,1898,8,8,7,0,193.8,65,a,3.7
+25,MID,Son,Son Heung-min,Spurs,129,4.3,2106,7,10,4,0,207.2,85,a,1.9

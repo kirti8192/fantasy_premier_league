@@ -9,3 +9,4 @@ Given player stats for a particular gameweek (e.g., GW38), predict each player's
 ## Problem 2: Predicting Player Position (softmax Multi-class Classification)
 
 Predict a player's position (**Goalkeeper**, **Defender**, **Midfielder**, or **Forward**) based on gameweek-specific stats. Formulate this as a multi-class classification problem using Softmax Regression.
+

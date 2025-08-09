@@ -1,0 +1,16 @@
+rank,pos,player,name,team_name,total_points,points_per_game,minutes,goals_scored,assists,clean_sheets,saves,ict_index,now_cost,status,selected_by_percent
+1,FWD,Isak,Alexander Isak,Newcastle,211,6.2,2758,23,6,12,0,292.7,105,a,26.2
+2,FWD,Wood,Chris Wood,Nott'm Forest,200,5.6,2958,20,3,15,0,205.6,75,a,16.4
+3,FWD,Bowen,Jarrod Bowen,West Ham,193,5.7,2974,13,11,8,0,271.9,80,a,20.3
+4,FWD,Watkins,Ollie Watkins,Aston Villa,186,4.9,2593,16,8,10,0,223.8,90,a,17.2
+5,FWD,Wissa,Yoane Wissa,Brentford,185,5.3,2921,18,6,9,0,242.4,75,a,6.9
+6,FWD,Haaland,Erling Haaland,Man City,181,5.8,2736,22,3,10,0,281.8,140,a,20.5
+7,FWD,Mateta,Jean-Philippe Mateta,Crystal Palace,150,4.1,2642,14,2,9,0,187.3,75,a,6.3
+8,FWD,Raúl,Raúl Jiménez Rodríguez,Fulham,147,3.9,2486,12,3,7,0,199.7,65,a,2.4
+9,FWD,Strand Larsen,Jørgen Strand Larsen,Wolves,145,4.1,2587,14,4,7,0,179.5,65,a,5.9
+10,FWD,Delap,Liam Delap,Chelsea,132,3.6,2587,12,2,3,0,157.5,65,a,4.7
+11,FWD,Evanilson,Francisco Evanilson de Lima Barbosa,Bournemouth,128,4.1,2317,10,5,11,0,174.8,70,a,2.6
+12,FWD,João Pedro,João Pedro Junqueira de Jesus,Chelsea,126,4.7,1946,10,6,6,0,166.0,75,a,52.1
+13,FWD,Welbeck,Danny Welbeck,Brighton,125,4.2,2109,10,5,7,0,155.8,65,a,7.6
+14,FWD,Solanke,Dominic Solanke-Mitchell,Spurs,108,4.0,2199,9,5,4,0,142.1,75,a,11.2
+15,FWD,Havertz,Kai Havertz,Arsenal,97,4.2,1872,9,3,7,0,144.8,75,a,1.3

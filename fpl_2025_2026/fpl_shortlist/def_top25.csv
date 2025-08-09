@@ -1,0 +1,26 @@
+rank,pos,player,name,team_name,total_points,points_per_game,minutes,goals_scored,assists,clean_sheets,saves,ict_index,now_cost,status,selected_by_percent
+1,DEF,Gvardiol,Joško Gvardiol,Man City,153,4.1,3278,5,0,13,0,185.0,60,a,17.4
+2,DEF,Milenković,Nikola Milenković,Nott'm Forest,145,3.9,3330,5,2,13,0,127.2,55,a,9.2
+3,DEF,Virgil,Virgil van Dijk,Liverpool,143,3.9,3330,3,1,14,0,143.7,60,a,24.4
+4,DEF,Muñoz,Daniel Muñoz Mejía,Crystal Palace,142,3.8,3229,4,6,11,0,197.6,55,a,8.4
+5,DEF,Kerkez,Milos Kerkez,Liverpool,134,3.5,3336,2,6,9,0,157.3,60,a,10.2
+6,DEF,Cucurella,Marc Cucurella Saseta,Chelsea,133,3.7,2988,5,2,9,0,137.9,60,a,18.9
+7,DEF,Saliba,William Saliba,Arsenal,130,3.7,3039,2,0,12,0,94.2,60,a,14.0
+8,DEF,Murillo,Murillo Costa dos Santos,Nott'm Forest,130,3.6,3188,2,0,12,0,134.0,55,a,4.9
+9,DEF,Aina,Ola Aina,Nott'm Forest,128,3.7,2996,2,1,12,0,94.1,50,a,17.4
+10,DEF,Collins,Nathan Collins,Brentford,127,3.3,3420,2,7,8,0,149.6,50,a,1.7
+11,DEF,Aït-Nouri,Rayan Aït-Nouri,Man City,125,3.4,3112,4,7,7,0,191.0,60,a,23.1
+12,DEF,Mitchell,Tyrick Mitchell,Crystal Palace,123,3.3,3090,0,6,12,0,136.2,50,a,1.0
+13,DEF,Mykolenko,Vitalii Mykolenko,Everton,121,3.5,3082,1,3,11,0,115.2,50,a,4.4
+14,DEF,Schär,Fabian Schär,Newcastle,118,3.5,2935,4,2,11,0,119.6,55,a,2.4
+15,DEF,Wan-Bissaka,Aaron Wan-Bissaka,West Ham,118,3.3,3154,2,6,6,0,152.7,45,a,31.1
+16,DEF,Gabriel,Gabriel dos Santos Magalhães,Arsenal,117,4.2,2363,3,2,10,0,108.2,60,a,21.6
+17,DEF,Guéhi,Marc Guéhi,Crystal Palace,116,3.4,3059,3,2,11,0,131.0,45,a,13.2
+18,DEF,Burn,Dan Burn,Newcastle,115,3.1,3330,1,1,13,0,115.8,50,a,3.2
+19,DEF,J.Timber,Jurriën Timber,Arsenal,114,3.8,2415,1,3,11,0,94.2,55,a,2.2
+20,DEF,Lacroix,Maxence Lacroix,Crystal Palace,114,3.3,3116,1,2,11,0,111.4,50,a,1.1
+21,DEF,N.Williams,Neco Williams,Nott'm Forest,109,3.1,2588,1,3,10,0,118.0,50,a,4.9
+22,DEF,Konaté,Ibrahima Konaté,Liverpool,106,3.4,2561,1,2,11,0,87.6,55,a,2.9
+23,DEF,Robinson,Antonee Robinson,Fulham,106,2.9,3166,0,10,5,0,185.5,50,a,6.3
+24,DEF,Tarkowski,James Tarkowski,Everton,105,3.2,2922,1,1,10,0,126.9,55,a,5.1
+25,DEF,Livramento,Tino Livramento,Newcastle,105,2.8,2835,0,1,10,0,110.1,50,a,4.1
