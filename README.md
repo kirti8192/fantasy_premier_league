@@ -10,3 +10,6 @@ Given player stats for a particular gameweek (e.g., GW38), predict each player's
 
 Predict a player's position (**Goalkeeper**, **Defender**, **Midfielder**, or **Forward**) based on gameweek-specific stats. Formulate this as a multi-class classification problem using Softmax Regression.
 
+### Problem 3: Predicting Next Gameweek's Top Scorers
+
+Train a classification model to predict whether a player will score above a chosen points threshold (e.g., >5 points) in the next gameweek.
